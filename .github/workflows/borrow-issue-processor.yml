@@ -3,22 +3,23 @@ name: Process Borror Issue
 
 on: 
   issues: 
-    - opened
-    - edited
-    - deleted
-    - transferred
-    - pinned
-    - unpinned
-    - closed
-    - reopened
-    - assigned
-    - unassigned
-    - labeled
-    - unlabeled
-    - locked
-    - unlocked
-    - milestoned
-    - demilestoned
+    action:
+      - opened
+      - edited
+      - deleted
+      - transferred
+      - pinned
+      - unpinned
+      - closed
+      - reopened
+      - assigned
+      - unassigned
+      - labeled
+      - unlabeled
+      - locked
+      - unlocked
+      - milestoned
+      - demilestoned
 
 jobs:
   logger:
